@@ -1,0 +1,64 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "wave_gen_tutorial_0",
+    "component_reference": "my_company:user:wave_gen_tutorial:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../project_lab2.gen/sources_1/ip/wave_gen_tutorial_0",
+    "parameters": {
+      "component_parameters": {
+        "BAUD_RATE": [ { "value": "115200", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "CLOCK_RATE_RX": [ { "value": "200000000", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "CLOCK_RATE_TX": [ { "value": "166667000", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "PW": [ { "value": "3", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "NSAMP_WID": [ { "value": "10", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "Component_Name": [ { "value": "wave_gen_tutorial_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "BAUD_RATE": [ { "value": "115200", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "CLOCK_RATE_RX": [ { "value": "200000000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "CLOCK_RATE_TX": [ { "value": "166667000", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "PW": [ { "value": "3", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "NSAMP_WID": [ { "value": "10", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "artix7" } ],
+        "BASE_BOARD_PART": [ { "value": "" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7a100t" } ],
+        "PACKAGE": [ { "value": "csg324" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Flow" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../project_lab2.gen/sources_1/ip/wave_gen_tutorial_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "." } ],
+        "SWVERSION": [ { "value": "2025.1" } ],
+        "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "clk_pin_p": [ { "direction": "in" } ],
+        "clk_pin_n": [ { "direction": "in" } ],
+        "rst_pin": [ { "direction": "in" } ],
+        "rxd_pin": [ { "direction": "in" } ],
+        "txd_pin": [ { "direction": "out" } ],
+        "lb_sel_pin": [ { "direction": "in" } ],
+        "spi_clk_pin": [ { "direction": "out" } ],
+        "spi_mosi_pin": [ { "direction": "out" } ],
+        "dac_cs_n_pin": [ { "direction": "out" } ],
+        "dac_clr_n_pin": [ { "direction": "out" } ],
+        "led_pins": [ { "direction": "out", "size_left": "7", "size_right": "0" } ]
+      }
+    }
+  }
+}

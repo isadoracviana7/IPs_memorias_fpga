@@ -1,0 +1,23 @@
+# Arquivos de log e relatorios do Vivado
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.dir
+*.csv
+*.txt
+
+# Pastas de cache e simulacao geradas automaticamente
+.Xil/
+*/.Xil/
+*.cache/
+*.hw/
+*.sim/
+*.runs/
+*.ip_user_files/
+*.xpr.zip
+
+# Arquivos temporarios do sistema operacional
+.DS_Store
+Thumbs.db

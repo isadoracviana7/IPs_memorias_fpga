@@ -1,0 +1,1 @@
+--incr --debug typical --relax --mt 2  -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot my_simple_Uart_0 xil_defaultlib.my_simple_Uart_0 xil_defaultlib.glbl -log elaborate.log
